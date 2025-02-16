@@ -2,7 +2,7 @@
 
 <img src="https://github.com/rifsxd/KernelSU-Next/blob/next/assets/kernelsu_next.png" style="width: 96px;" alt="logo">
 
-Stock OneUI4 with KernelSU Next & SuSFS Based on [Kernel](https://github.com/ivanmeler/android_kernel_samsung_beyondlte) by [`ivanmeler`](https://github.com/ivanmeler)
+Stock OneUI4 with KernelSU Next & SuSFS Based on [Kernel Tree](https://github.com/ivanmeler/android_kernel_samsung_beyondlte) by [`ivanmeler`](https://github.com/ivanmeler)
 
 ## Features
 
@@ -14,7 +14,7 @@ Stock OneUI4 with KernelSU Next & SuSFS Based on [Kernel](https://github.com/iva
 
 ## Tested On
 
-- [HyperROM [N10/+/5G]](https://xdaforums.com/t/rom-n10-n10plus-n105g-14-jan-23-v1-1s-hyper-rom-be-unique.4268123) - Based on N975FXXS8HVJ1
+- <a href="https://xdaforums.com/t/rom-n10-n10plus-n105g-14-jan-23-v1-1s-hyper-rom-be-unique.4268123" target="_blank">HyperROM (N10/+/5G)</a> - Based on N975FXXS8HVJ1
 
 ## Known Issue
 
@@ -58,7 +58,7 @@ Warning: `Please backup your modules before flashing this kernel, as all install
 2. Properly clone repository with submodules (KernelSU Next)
 
 ```html
-git clone --recurse-submodules https://github.com/oItsMineZ/oItsMineZKernel-OneUI6.git
+git clone --recurse-submodules https://github.com/oItsMineZKernel/android_kernel_samsung_oneui4_exynos9820
 ```
 
 3. Build for your device
@@ -81,5 +81,5 @@ build/export/oItsMineZKernel-OneUI4...zip
 
 - [`rifsxd`](https://github.com/rifsxd) for [KernelSU Next](https://github.com/rifsxd/KernelSU-Next)
 - [`simonpunk`](https://gitlab.com/simonpunk) for [susfs4ksu](https://gitlab.com/simonpunk/susfs4ksu)
-- [`ivanmeler`](https://gitlab.com/ivanmeler) for [Kernel](https://github.com/ivanmeler/android_kernel_samsung_beyondlte)
+- [`ivanmeler`](https://gitlab.com/ivanmeler) for [Kernel Tree](https://github.com/ivanmeler/android_kernel_samsung_beyondlte)
 - [`Ocin4ever`](https://github.com/Ocin4ever) & [`ExtremeXT`](https://github.com/ExtremeXT) for [ExtremeKernel](https://github.com/Ocin4ever/ExtremeKernel)
