@@ -64,6 +64,8 @@ jobs:
           name: "${{ github.event.inputs.tag }}"
           draft: false
           prerelease: false
+          makeLatest: true
+          skipIfReleaseExists: true
           token: ${{ secrets.TOKEN }}          
           artifacts: "artifacts/**/*.zip"
           body: "Commit SHA: ${{ github.sha }}"
